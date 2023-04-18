@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
+	--dark-color-a: #ffba66;
+	--dark-color-b: #ffce73;
+	--light-color: #fff3e6;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -13,7 +13,16 @@
 	margin: 0;
 	padding: 0;
 }
-
+.btn_home
+{
+	color: white;
+    background-color: rgb(237, 204, 144);
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    margin-top:13px;
+    margin-bottom:2px;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;

@@ -7,7 +7,7 @@ const {
   userJoin,
   getCurrentUser,
   userLeave,
-  getRoomUsers
+    getRoomUsers
 } = require('./utils/users');
 
 const app = express();
